@@ -1,7 +1,7 @@
 @media only screen and (min-width: 416px){
     .stats {
-        height: 54px;
-        top: 155px;
+        height: 56px;
+        top: 178px;
         right: 10px;
         width: 293px;
     }
@@ -115,7 +115,7 @@
     }
     .stats {
         height: 41px;
-        top: 155px;
+        top: 176px;
         right: 28px;
         width: 448px;
     }
