@@ -17,7 +17,9 @@ header h1{
     padding-left: 15px;
 }
 body{
-    background: repeating-linear-gradient(74deg, #613DC1, #000000);
+    /*background: repeating-linear-gradient(74deg, #613DC1, #000000);*/
+    background-image: url("https://i.ibb.co/Sm76yW9/islamorada.jpg");
+    background-size: 20%;
     min-width: 387px;
     margin: 0 auto;
 }
@@ -393,7 +395,7 @@ iframe{
   justify-content: center;
   align-items: center;
   font-family: Lato, sans-serif;
-  background: url("https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg") 0 / cover
+  background: url("https://i.ibb.co/dGy8SN0/cumple1.jpg") 0 / cover
     fixed;
 }
 
@@ -401,7 +403,7 @@ iframe{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3em;
+  padding: 2em;
   color: white;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
@@ -411,49 +413,49 @@ iframe{
   0 1.9px 2.5px rgba(0, 0, 0, 0.25),
   0 3.4px 4.5px rgba(0, 0, 0, 0.298),
   0 6.3px 8.4px rgba(0, 0, 0, 0.359),
-  0 15px 20px rgba(0, 0, 0, 0.5)
-;
+  0 15px 20px rgba(0, 0, 0, 0.5);
+}
 
-  h1 {
+
+h1{
     margin-bottom: 0.3em;
     padding: 12px 0;
     font-size: 2.5em;
-  }
+}
 
-  .form-field {
+.form-field {
     position: relative;
     margin: 20px 0 8px 0;
     font-size: 20px;
     border-bottom: 1px solid white;
     transition: 0.4s;
-
     &::after {
-      position: absolute;
-      content: "";
-      bottom: -1px;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background: #3498db;
-      transform-origin: left;
-      transform: scaleX(0);
-      transition: 0.4s ease;
-    }
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #3498db;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: 0.4s ease;
+}
 
-    &:focus-within::after {
-      transform: scaleX(1);
-    }
+&:focus-within::after {
+    transform: scaleX(1);
+}
 
-    input {
-      padding-left: 10px;
-      color: white;
-      background: transparent;
-      border: none;
-      outline: none;
-      &:focus ~ label,
-      &:not(:placeholder-shown) ~ label {
-        transform: translateY(-24px) scale(0.75);
-      }
+input {
+    padding-left: 10px;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    &:focus ~ label,
+    &:not(:placeholder-shown) ~ label {
+    transform: translateY(-24px) scale(0.75);
+}
 
       &:valid ~ label {
         color: #3498db;
@@ -473,7 +475,7 @@ iframe{
     }
   }
 
-  #btn {
+#btn {
     position: relative;
     width: 100%;
     padding: 6px 0;
@@ -502,7 +504,7 @@ iframe{
       );
       transform: translateX(-100%);
       transition: 0.5s;
-    }
+}
 
     &:hover {
       box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
@@ -511,6 +513,5 @@ iframe{
     &:hover::before {
       transform: translateX(100%);
     }
-  }
-  
 }
+  
