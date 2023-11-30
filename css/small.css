@@ -1,9 +1,8 @@
-
 /* header */
 header{
     display: grid;
     grid-template-columns: 80px 1fr 1fr 1fr 1fr;
-    background: repeating-linear-gradient(179deg, #613DC1, #000000);
+    background-image: url(https://i.ibb.co/s57NrgV/aba074a8-fa0d-44be-8b86-1d2328bdad12.jpg);
     margin: 0 auto;
     height: 165px;
     width: auto;
@@ -15,20 +14,31 @@ header h1{
     font-size: 33px;
     grid-column: 1/4;
     padding-left: 15px;
+    font-family: 'Dancing Script', sans-serif;
 }
-body{
-    /*background: repeating-linear-gradient(74deg, #613DC1, #000000);*/
-    background-image: url("https://i.ibb.co/Sm76yW9/islamorada.jpg");
-    background-size: 20%;
-    min-width: 387px;
-    margin: 0 auto;
-}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+html {
+    background-image: url(https://i.ibb.co/s57NrgV/aba074a8-fa0d-44be-8b86-1d2328bdad12.jpg);
+    background-position-x: 406px;
+    background-position-y: 803px;
+	background-attachment: fixed;
+	}
+
+body {
+	height: 100%;
+	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+	}
 
 h2 h3 h4{
     font-family: 'Lora', cursive;
 }
 h1{
-    font-family: 'Lora', sans-serif;
     color: #DEFFF2;
 }
 p,a{
@@ -141,7 +151,7 @@ body {
     font-size: 20pt;
     border-radius: 10px;
     border: none;
-    background: #f0147e;
+    background: #5442a0;
     line-height: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -155,7 +165,7 @@ body {
   
   #pressMe:hover {
     background: white;
-    color: #f0147e;
+    color: #5442a0;
   }
   .message {
     display: none;
@@ -163,7 +173,7 @@ body {
     top: 644px;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #f0147e;
+    background-color: #5442a0;
     color: black;
     text-align: center;
     border-radius: 30px;
@@ -201,13 +211,16 @@ body {
 }
 .stats h2{
     font-size: 15px;
+    margin-top: 8px;
 }
 .Lomasbonito{
     font-size: 40px;
     text-align: center;
-    color: black;
-    background: white;
+    color: #ebfffb;
+    background: #5442a0;
     border-radius: 30px;
+    margin-top: 20px;
+    font-family: 'Dancing Script', sans-serif;
 }
 .dot {
     background: #000000;
@@ -247,16 +260,19 @@ body {
     border: 1px solid #000;
 }
 .box2 h4{
-    font-size: 20px;
     color:#000009;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
 
 }
 .box3 h4{
-    font-size: 20px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
     color:#000009;
 }
 .box4 h4{
-    font-size: 20px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
     color:#000009;
 }
 /*----------- texto--------- */
@@ -268,7 +284,11 @@ body {
     text-align: center;
     padding: 25px;
     color: #000009;
-    font-size: 18px;
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', sans-serif;
+    
 }
 
 /*------------video--------- */
@@ -279,7 +299,7 @@ iframe {
  }
 /*------------footer--------- */
 footer{
-    background-color: #000009;
+    background-image: url(https://i.ibb.co/s57NrgV/aba074a8-fa0d-44be-8b86-1d2328bdad12.jpg);
     margin-top: 30px;
     height: 100px;
 }
@@ -290,10 +310,11 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 25px;
 }
 .firstpartofcarts img:first-child{
     width: 159px;
-    height: 167px;
+    height: 214px;
     grid-column: 1;
     margin: auto;
 }
@@ -302,21 +323,24 @@ footer{
     margin-top: 27px;
     width: 180px;
     color: white;
+    font-size: 16px;
 }
 .firstpartofcarts img:nth-child(3){
     width: 178px;
     height: 187px;
     grid-column: 2;
     margin: auto;
+    margin-top: 10px;
 }
 #secondtext{
     grid-row: 2;
     text-align: center;
-    margin-top: 46px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 180px;
     color: white;
+    font-size: 16px;
 }
 .firstpartofcarts img:nth-child(5){
     display: none;
@@ -336,26 +360,41 @@ footer{
     margin-right: auto;
     height: 470px;
     margin-top: 15px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 25px;
 }
 .carts img{
     width: 270px;
 }
 .downtitlerazones h1{
     background-color: #0FF4C6;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     color: #000;
+    margin-top: 20px;
+    font-family: 'Dancing Script', sans-serif;
 }
 .Razones{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin:auto
 }
+.primeraparte{
+    margin-left: auto;
+    margin-right: auto;
+}
+.segundaparte{
+    margin-left: auto;
+    margin-right: auto;
+}
 .terceraparte{
-    margin-left: -10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 li{
     color: white;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 22px;
 }
 
 /*------------------------------------------------------------video page---------------------------------------------------------------------- */

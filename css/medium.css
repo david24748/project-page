@@ -1,4 +1,7 @@
 @media only screen and (min-width: 416px){
+    body{
+        background-size: 55%;
+    }
     .stats {
         height: 56px;
         top: 178px;
@@ -63,8 +66,8 @@
 /*------------------------------------------------------------carts page---------------------------------------------------------------------- */
     .firstpartofcarts img:first-child{
         width: 186px;
-        height: 179px;
-        margin-top: 10px;
+        height: 203px;
+        margin-top: 31px;
         margin-right: 5px;
     }
     #firsttext{
@@ -79,12 +82,12 @@
     }
     #secondtext{
         width: 200px;
-        margin-top: 46px;
+        margin-top: 10px;
         margin-right: 5px;
     }
     #cart1, #cart2, #cart3, #cart4, #cart5, #cart6 {
         width: 195px;
-        height: 330px;
+        height: 356px;
         margin-top: 15px;
     }
     .carts img{
@@ -102,8 +105,17 @@
     .imagenesparteabajo img{
         width: 193px;
     }
+    .downtitlerazones h1 {
+        font-size: 30px;
+        }
+    li{
+        font-size: 25px;
+    }
 }
 @media only screen and (min-width: 635px){
+    body{
+        background-size: 40%;
+    }
     .imagesofindex{
         margin-top: 10px;
     }
@@ -121,7 +133,7 @@
     }
     .firstpartofcarts img:first-child{
         width: 216px;
-        margin-top: 10px;
+        margin-top: 21px;
         margin-right: -5px;
     }
     #firsttext{
@@ -133,20 +145,26 @@
     .firstpartofcarts img:nth-child(3){
         width: 210px;
         height: 210px;
-        margin-left: -12px;
-        margin-top: -16px;
+        margin-left: -5px;
+        margin-top: 0px;
     }
     #secondtext{
         width: 200px;
-        margin-top: 46px;
-        margin-right: 40px;
+        margin-top: 8px;
+        margin-right: 18px;
     }
     #cart1, #cart2, #cart3, #cart4, #cart5, #cart6 {
         width: 250px;
-        height: 400px;
+        height: 365px;
     }
     .carts img{
         width: 195px;
+    }
+    .downtitlerazones h1 {
+        font-size: 35px;
+        }
+    li{
+        font-size: 29px;
     }
     /*------------------------------------------------------------video page---------------------------------------------------------------------- */
     iframe {
