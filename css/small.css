@@ -490,6 +490,7 @@ h1{
 }
 
 input {
+    background-color: white;
     padding-left: 10px;
     color: white;
     background: transparent;

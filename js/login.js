@@ -4,7 +4,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if(username === 'Te amo' && password === 'feliz aniversario') {
+    if(username === 'Teamo' && password === 'felizaniversario') {
         document.getElementById('message').textContent = '¡Inicio de sesión exitoso!';
         window.location.href = 'principal.html';
     } else {
