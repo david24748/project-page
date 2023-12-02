@@ -428,6 +428,9 @@ iframe{
 /* -----------------------------------------------------------login page----------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+.htmllogin{
+    background: none;
+}
 .bodylogin {
   display: flex;
   height: 100vh;
